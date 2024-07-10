@@ -1,4 +1,4 @@
-FROM node:18-slim
+FROM public.ecr.aws/docker/library/node:18.20.4-slim
 
 WORKDIR /user/src/app
 
